@@ -5,4 +5,5 @@ await build({
     bundle: true,
     outfile: "dist/index.js",
     format: "esm",
+    external: ["codemirror", "@codemirror/*"],
 });
